@@ -1,4 +1,4 @@
-# Milestone 2 Project 1 with nextjs + custum css - Basic Portfolio
+# Milestone 2 Project 1 with nextjs + custom css - Basic Portfolio
 
 This project is the second milestone in our journey to mastering Next.js. The portfolio is built using the App Router and features four essential pages:
 
