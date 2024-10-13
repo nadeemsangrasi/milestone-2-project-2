@@ -10,7 +10,7 @@ const HomeSection = () => {
       <div className={styles.home}>
         <div className={styles.left}>
           <Heading text="Welcome to Our Website" />
-          <p className="text-sm sm:text-lg font-medium py-2 pb-4">
+          <p>
             We are a team of passionate developers dedicated to creating
             innovative software solutions. With years of experience in the
             field, we specialize in building robust and user-friendly

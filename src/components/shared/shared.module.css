@@ -19,7 +19,7 @@
   -webkit-text-stroke: white 1px;
 }
 .button {
-  background-color: #3b82f6;
+  background-color: #1d4ed8;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -29,7 +29,7 @@
   font-weight: 700;
 }
 .button:hover {
-  background-color: #1d4ed8;
+  background-color: #3b82f6;
 }
 @media only screen and (max-width: 640px) {
   .wrapper {

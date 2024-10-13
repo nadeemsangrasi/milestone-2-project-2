@@ -50,7 +50,7 @@
   border-radius: 20px;
 }
 @media only screen and (max-width: 1024px) {
-  .home {
+  .about {
     display: block;
   }
   .right {

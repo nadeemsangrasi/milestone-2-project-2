@@ -9,7 +9,7 @@ const WorkCard = ({ data }: { data: ICard }) => {
     <div className={styles.card}>
       <SubHead text={data.title} />
       <h2>{data.snug}</h2>
-      <div className="overflow-hidden">
+      <div>
         <Link href={data.url}>
           <Image
             src={data.image}
