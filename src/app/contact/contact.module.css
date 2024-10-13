@@ -1,0 +1,28 @@
+.heading {
+  text-align: center;
+}
+.field {
+  margin: 12px 0px;
+}
+.field label {
+  display: block;
+  margin-bottom: 4px;
+  color: white;
+}
+.field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #212020;
+  border-radius: 4px;
+}
+.field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #212020;
+  border-radius: 4px;
+}
+
+.btn {
+  margin: 0 auto;
+  display: block;
+}

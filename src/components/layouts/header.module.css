@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  height: 70px;
+  margin: 12px auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  background-color: #64748b;
+  padding: 0 20px;
+  color: white;
+  border-radius: 999px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  text-align: center;
+  font-size: 1.7rem;
+  padding-top: -2px;
+  font-weight: 700;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 0px auto;
+}
+.menu li {
+  list-style: none;
+}
+.menu a {
+  font-weight: 500;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.menu a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 640px) {
+  .header {
+    display: block;
+    width: 100%;
+  }
+  .menu {
+    padding-top: 5px;
+    gap: 8px;
+  }
+  .menu a {
+    font-size: 16px;
+    text-decoration: none;
+  }
+}

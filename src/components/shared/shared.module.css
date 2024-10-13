@@ -1,0 +1,42 @@
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+.heading {
+  font-size: 2.9rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: orange;
+  padding: 6px 0px;
+  -webkit-text-stroke: white 2px;
+}
+.subHead {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: orange;
+  padding: 6px 0px;
+  -webkit-text-stroke: white 1px;
+}
+.button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: #1d4ed8;
+}
+@media only screen and (max-width: 640px) {
+  .wrapper {
+    width: 100%;
+    padding: 0px 10px;
+  }
+  .heading {
+    font-size: 2.5rem;
+  }
+}
