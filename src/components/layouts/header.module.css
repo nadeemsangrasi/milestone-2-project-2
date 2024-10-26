@@ -4,11 +4,11 @@
   margin: 12px auto;
   align-items: center;
   justify-content: space-between;
-  width: 50%;
-  background-color: #64748b;
+  width: 70%;
+  background-color: #1e293b;
   padding: 0 20px;
   color: white;
-  border-radius: 999px;
+  border-radius: 6px;
   flex-wrap: wrap;
 }
 

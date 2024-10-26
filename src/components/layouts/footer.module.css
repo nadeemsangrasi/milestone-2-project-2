@@ -1,0 +1,81 @@
+.footer {
+  margin-top: 100px;
+  min-height: 80vh;
+  width: 100%;
+  background-color: #0f172a;
+}
+
+.ftPt2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.ftPt2 h3 {
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.ftPt2 h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 6rem;
+  color: white;
+  padding: 20px 0;
+}
+
+.ftPt2 button {
+  padding: 12px 20px;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.ftPt2 button:hover {
+  cursor: pointer;
+}
+
+.ftPt3 {
+  margin-top: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.ftPt3 h4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.ftPt3 button:hover {
+  cursor: pointer;
+}
+
+.ftPt3 .ftLinks h3 {
+  font-size: 1.2rem;
+  color: gray;
+  font-weight: 500;
+  font-family: sans-serif;
+  padding-bottom: 5px;
+}
+
+.ftPt3 .ftLinks h4 {
+  color: white;
+  padding: 8px 0;
+  font-family: sans-serif;
+  font-weight: 350;
+}
+
+.footer h1 {
+  font-family: sans-serif;
+  font-weight: 500;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  letter-spacing: 3px;
+}

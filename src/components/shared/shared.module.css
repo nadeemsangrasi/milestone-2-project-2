@@ -1,36 +1,29 @@
 .wrapper {
-  margin: 0 auto;
+  margin: 40px auto;
   width: 90%;
 }
 .heading {
-  font-size: 2.9rem;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
-  color: orange;
+  color: white;
   padding: 6px 0px;
-  -webkit-text-stroke: white 2px;
 }
 .subHead {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   font-weight: 800;
   line-height: 1.2;
-  color: orange;
+  color: white;
   padding: 6px 0px;
-  -webkit-text-stroke: white 1px;
 }
 .button {
-  background-color: #1d4ed8;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 700;
+  background-color: #d1d5db;
+  color: #000000;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
 }
-.button:hover {
-  background-color: #3b82f6;
-}
+
 @media only screen and (max-width: 640px) {
   .wrapper {
     width: 100%;

@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Wrapper from "../shared/Wrapper";
-import Button from "../shared/Button";
+
 import HomeImage from "@/assets/images/home-img.jpg";
-import Heading from "../shared/Heading";
 import styles from "./home.module.css";
+import Wrapper from "@/components/shared/Wrapper";
+import Heading from "@/components/shared/Heading";
+import Button from "@/components/shared/Button";
 const HomeSection = () => {
   return (
     <Wrapper>

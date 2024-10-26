@@ -1,0 +1,54 @@
+.teamSection {
+  padding: 3.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.center {
+  text-align: center;
+}
+.teamCard {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.5s ease;
+}
+
+.teamCard:hover {
+  transform: scale(1.05);
+}
+
+.cardImage {
+  width: 100%;
+  border-radius: 0.375rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardSocial {
+  display: flex;
+  gap: 1rem;
+  position: relative;
+  top: -2.5rem;
+  z-index: 1;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: #d1d5db;
+}
+
+.cardAbout {
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
+  color: #7f8c8d;
+  font-weight: 400;
+}
+
+.cardAbout:hover {
+  color: #3498db;
+}

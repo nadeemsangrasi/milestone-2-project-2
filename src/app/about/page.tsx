@@ -7,9 +7,9 @@ import styles from "./about.module.css";
 const HomeSection = () => {
   return (
     <Wrapper>
-      <Heading text="About Us" className={styles.heading} />
       <div className={styles.about}>
         <div className={styles.left}>
+          <Heading text="About Us" className={styles.heading} />
           <p>
             At our company, we are a team of innovative thinkers and passionate
             developers dedicated to crafting exceptional digital experiences.
