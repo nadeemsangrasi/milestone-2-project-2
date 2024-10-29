@@ -33,8 +33,7 @@ export const ourTeamData: OurTeamCardType[] = [
 const OurTeamSection = () => {
   return (
     <Wrapper>
-      
-      <Heading text="Our Team Members" className={styles.center} />
+      <Heading text="My Team Members" className={styles.center} />
       <div className={styles.teamSection}>
         {ourTeamData.map(
           ({ img, name, about }: OurTeamCardType, index: number) => (

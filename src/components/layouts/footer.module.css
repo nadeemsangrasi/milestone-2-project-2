@@ -1,8 +1,12 @@
+.footerCon {
+  background-color: #0f172a;
+}
 .footer {
   margin-top: 100px;
   min-height: 80vh;
   width: 100%;
-  background-color: #0f172a;
+  max-width: 1680px;
+  margin: 0 auto;
 }
 
 .ftPt2 {

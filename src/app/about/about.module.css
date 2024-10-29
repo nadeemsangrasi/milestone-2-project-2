@@ -1,65 +1,105 @@
-.about {
+.aboutSection {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column-reverse;
   align-items: center;
-  margin: 44px auto;
-  padding: 0 16px;
-  gap: 6px;
-}
-.left {
+  justify-content: center;
+  background-color: #1e293b;
+  color: #f0f4f8;
+  padding: 3rem 1.5rem;
+  border-radius: 16px;
   text-align: center;
-  width: 50%;
-  padding-top: 8px;
-}
-.heading {
-  text-align: center;
-  margin: 26px 0px;
-}
-.left p {
-  padding-top: 8px;
-  padding-bottom: 20px;
-  color: white;
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 500;
-}
-.right {
-  padding-top: 20px;
-  width: 50%;
-  overflow: hidden;
-  border-radius: 20px;
-  transition: all ease 0.5s;
-}
-.right:hover {
-  border-radius: 20px;
-
-  transition: all ease 0.5s;
+  gap: 2.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
 }
 
-.right img {
+.aboutSection:hover {
+  transform: translateY(-10px);
+}
+
+.imageContainer {
   width: 100%;
-  height: 100%;
-
-  transition: all ease 0.5s;
-  border-radius: 20px;
+  max-width: 450px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-.right img:hover {
-  scale: 1.1;
-  transition: all ease 0.5s;
 
-  border-radius: 20px;
+.imageContainer:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.3);
 }
-@media only screen and (max-width: 1024px) {
-  .about {
-    display: block;
+
+.profileImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.contentContainer {
+  max-width: 600px;
+  padding: 0 1rem;
+}
+
+.heading {
+  font-size: 2.75rem;
+  font-weight: 700;
+  color: #e2e8f0;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.description {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #cbd5e1;
+  margin-bottom: 2.5rem;
+}
+
+.buttonContainer {
+  margin-top: 1rem;
+}
+
+.ctaButton {
+  background-color: #3b82f6;
+  color: #f0f4f8;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .aboutSection {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    padding: 4rem 2rem;
+    gap: 3rem;
   }
-  .right {
-    width: 100%;
+
+  .imageContainer {
+    max-width: 50%;
   }
-  .left {
-    width: 100%;
+
+  .contentContainer {
+    max-width: 50%;
   }
-  .left p {
-    font-size: 16px;
+
+  .heading {
+    font-size: 3rem;
+  }
+
+  .description {
+    font-size: 1.125rem;
   }
 }

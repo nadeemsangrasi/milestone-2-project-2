@@ -4,28 +4,34 @@ import Button from "@/components/shared/Button";
 import aboutImage from "@/assets/images/about-img.jpg";
 import Heading from "@/components/shared/Heading";
 import styles from "./about.module.css";
+
 const HomeSection = () => {
   return (
     <Wrapper>
-      <div className={styles.about}>
-        <div className={styles.left}>
+      <section className={styles.aboutSection}>
+        <div className={styles.imageContainer}>
+          <Image
+            src={aboutImage}
+            alt="Our team of developers"
+            className={styles.profileImage}
+          />
+        </div>
+        <div className={styles.contentContainer}>
           <Heading text="About Us" className={styles.heading} />
-          <p>
-            At our company, we are a team of innovative thinkers and passionate
-            developers dedicated to crafting exceptional digital experiences.
-            With a deep understanding of the latest technologies and trends, we
-            specialize in designing and developing custom software solutions
-            that drive business growth and success. From bespoke web
-            applications to mobile apps and e-commerce platforms, our expertise
-            is focused on delivering tailored solutions that meet the unique
-            needs of our clients.
+          <p className={styles.description}>
+            We are a team of innovative thinkers and passionate developers,
+            dedicated to crafting exceptional digital experiences. With a deep
+            understanding of the latest technologies, we specialize in designing
+            and developing custom software solutions that drive business growth.
+            From bespoke web applications to mobile platforms and e-commerce
+            sites, we provide tailored solutions that empower our clients and
+            fuel their success.
           </p>
-          <Button text="More information" />
+          <div className={styles.buttonContainer}>
+            <Button text="Learn More" className={styles.ctaButton} />
+          </div>
         </div>
-        <div className={styles.right}>
-          <Image src={aboutImage} alt="developers team image" />
-        </div>
-      </div>
+      </section>
     </Wrapper>
   );
 };

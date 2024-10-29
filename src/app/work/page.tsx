@@ -10,7 +10,7 @@ const AboutPage = () => {
     <Wrapper>
       <div>
         <div className={styles.left}>
-          <Heading text="Check out our work" className={styles.heading} />
+          <Heading text="Check out My work" className={styles.heading} />
         </div>
         <div>
           {cardData.map((card: ICard, index: number) => (
